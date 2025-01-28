@@ -15,4 +15,6 @@ public interface EmpleadosService {
 
     Empleados update(Long cedula, Empleados empleado);
 
+    void delete(Long cedula);
+
 }

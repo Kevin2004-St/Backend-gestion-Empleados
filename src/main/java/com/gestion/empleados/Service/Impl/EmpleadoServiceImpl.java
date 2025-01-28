@@ -43,4 +43,9 @@ public class EmpleadoServiceImpl implements EmpleadosService {
                     return repository.save(exist);
                 }).orElse(null);
     }
+
+    @Override
+    public void delete(Long cedula) {
+
+    }
 }
